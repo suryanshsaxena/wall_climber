@@ -3,7 +3,7 @@
 #include "Servo.h"
 
 
-Wall :: Wall(int pin1, int pin2, int control) 
+Wall :: Wall(int pin1, int pin2, bool control) 
 {	
 	_pin1 = pin1;
 	esc.attach(_pin1);
