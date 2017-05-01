@@ -11,7 +11,7 @@ Author : Suryansh Saxena
 class Wall
 {
   public:
-    Wall(int pin1, int pin2, int control);
+    Wall(int pin1, int pin2, bool control);
     void clockwise(int val);
     void anticlock(int val);
     void stop();
